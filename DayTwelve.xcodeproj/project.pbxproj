@@ -14,6 +14,8 @@
 		6530A0CB19D96C38005613FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6530A0CA19D96C38005613FE /* Images.xcassets */; };
 		6530A0CE19D96C38005613FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6530A0CC19D96C38005613FE /* LaunchScreen.xib */; };
 		6530A0DA19D96C38005613FE /* DayTwelveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530A0D919D96C38005613FE /* DayTwelveTests.m */; };
+		6530A0E519D96F2E005613FE /* DayTwelveData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6530A0E319D96F2E005613FE /* DayTwelveData.xcdatamodeld */; };
+		6530A0E719D97077005613FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530A0E619D97077005613FE /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		6530A0D319D96C38005613FE /* DayTwelveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayTwelveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6530A0D819D96C38005613FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6530A0D919D96C38005613FE /* DayTwelveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayTwelveTests.m; sourceTree = "<group>"; };
+		6530A0E419D96F2E005613FE /* DayTwelveData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayTwelveData.xcdatamodel; sourceTree = "<group>"; };
+		6530A0E619D97077005613FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6530A0E719D97077005613FE /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		6530A0B119D96C38005613FE = {
 			isa = PBXGroup;
 			children = (
+				6530A0E619D97077005613FE /* CoreData.framework */,
 				6530A0BC19D96C38005613FE /* DayTwelve */,
 				6530A0D619D96C38005613FE /* DayTwelveTests */,
 				6530A0BB19D96C38005613FE /* Products */,
@@ -85,6 +91,7 @@
 				6530A0C219D96C38005613FE /* AppDelegate.m */,
 				6530A0C419D96C38005613FE /* ViewController.h */,
 				6530A0C519D96C38005613FE /* ViewController.m */,
+				6530A0E319D96F2E005613FE /* DayTwelveData.xcdatamodeld */,
 				6530A0C719D96C38005613FE /* Main.storyboard */,
 				6530A0CA19D96C38005613FE /* Images.xcassets */,
 				6530A0CC19D96C38005613FE /* LaunchScreen.xib */,
@@ -220,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6530A0C619D96C38005613FE /* ViewController.m in Sources */,
+				6530A0E519D96F2E005613FE /* DayTwelveData.xcdatamodeld in Sources */,
 				6530A0C319D96C38005613FE /* AppDelegate.m in Sources */,
 				6530A0C019D96C38005613FE /* main.m in Sources */,
 			);
@@ -422,6 +430,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6530A0E319D96F2E005613FE /* DayTwelveData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6530A0E419D96F2E005613FE /* DayTwelveData.xcdatamodel */,
+			);
+			currentVersion = 6530A0E419D96F2E005613FE /* DayTwelveData.xcdatamodel */;
+			path = DayTwelveData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6530A0B219D96C38005613FE /* Project object */;
 }
